@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+	background-image:url('Ibiza Sunset.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#heading {
+	color:white;
+	font-size:4em;
+	font-family: 'Pacifico', cursive;
+	position:relative;
+	top:50px;
+}
+
+#subheading {
+	color:white;
+	font-style:italic;
+	position:relative;
+	top:60px;
+}
+
+.fa	{
+	color:white;
+	position:relative;
+	top:130px;
+	margin-left:2px;
+}
+
+#search {
+	cursor:pointer;
+}
+
+/*when input is revealed*/
+
+input {
+	height:40px;
+	background-color:transparent;
+	color:white;
+	border:3px solid #fff;
+	border-radius:10px;
+	position:relative;
+	top:107px;
+	padding-left:5px;
+}
+
+input, select, textarea{
+    color: #fff;
+}
+
+textarea:focus, input:focus {
+    color: #fff;
+    outline:none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #fff;
+}
+
+@media (min-width:100px){
+	input {
+		width:250px;
+	}
+}
+
+@media (min-width:470px){
+	input {
+		width:300px;
+	}
+}
+
+/*when results are revealed*/
+
+#results {
+	color:#fff;
+	font-family: 'Pacifico', cursive;
+	font-size:2.5em;
+	text-align:center;
+	margin-left:30px; /*offsets the padding in the results section*/
+}
+
+
+.results-section {
+	max-width:850px;
+	padding-right:30px;
+	margin:150px auto 50px auto;
+}
+
+ul {
+	color:white;
+	width:100%;
+	margin: 0 auto;
+}
+
+
+li {
+	list-style-type:none;
+	position:relative;
+	top:30px;
+	text-align:justify;
+	width:100%;
+}
+
+li > a {
+	font-size:1.5em;
+	font-weight:bold;
+	color:white;	
+}
+
+li > a:hover {
+	color:#ff6a00;
+}
+
+#reset {
+	color:white;
+	font-size:0.7em;
+	margin-bottom:20px;
+	cursor:pointer;
+	text-align:center;
+}
