@@ -1,9 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/*navigation*/
+.navbar-default {
+	background-color:#D8D8D8;
+	opacity:0.9;
+	border:none;
+	font-family: 'Roboto', sans-serif;
+	}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #D7E5F9;
+	}
+
+.header {
+	padding-right: 15px;
+	padding-left: 15px;
+	}
 
 body {
-	background-image:url('Ibiza Sunset.jpg');
+	background-image:url('IbizaSunset.jpg');
 	background-size:cover;
-	background-repeat:no-repeat;
+}
+
+.article-search {
+	width:100%;
+	text-align: center;
+	margin:0 auto;
 }
 
 #heading {
@@ -11,17 +32,17 @@ body {
 	font-size:4em;
 	font-family: 'Pacifico', cursive;
 	position:relative;
-	top:50px;
+	top:60px;
 }
 
 #subheading {
 	color:white;
 	font-style:italic;
 	position:relative;
-	top:60px;
+	top:70px;
 }
 
-.fa	{
+#search, #random {
 	color:white;
 	position:relative;
 	top:130px;
@@ -31,6 +52,7 @@ body {
 #search {
 	cursor:pointer;
 }
+
 
 /*when input is revealed*/
 
@@ -90,14 +112,14 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 	margin:150px auto 50px auto;
 }
 
-ul {
-	color:white;
+#output {
+	color:#fff;
 	width:100%;
 	margin: 0 auto;
 }
 
 
-li {
+#output > li {
 	list-style-type:none;
 	position:relative;
 	top:30px;
@@ -105,14 +127,14 @@ li {
 	width:100%;
 }
 
-li > a {
+#output > li > a {
 	font-size:1.5em;
 	font-weight:bold;
 	color:white;	
 }
 
-li > a:hover {
-	color:#ff6a00;
+#output > li > a:hover {
+	color:#F98137;
 }
 
 #reset {
